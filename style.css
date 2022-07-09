@@ -10,10 +10,9 @@ body{
   font: popins;
 }
 
-#main{
-  width: 100%;
-  height: 55vh;
-  position: relative;
+.main{
+  display: flex;
+
 }
 nav{
   font-size: larger;
@@ -42,7 +41,7 @@ nav{
   
 }
 
-.menu li a{
+.menu a{
   height: 60px;
   line-height: 3px;
   margin: 10px;
@@ -119,7 +118,7 @@ a{
 
 }
 
-.menu li a:hover{
+.menu a:hover{
   background-color: #23cdaf;
   color: white;
   box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
@@ -138,5 +137,6 @@ a{
   #expant-btn{
     display: block;
   }
+  
   
 }
