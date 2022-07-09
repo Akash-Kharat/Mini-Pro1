@@ -4,7 +4,7 @@
 }
 
 body{
-  display: flex;
+  
   margin: 0px;
   padding: 0px;
   font: popins;
@@ -16,14 +16,15 @@ body{
   position: relative;
 }
 nav{
+  font-size: larger;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
   top: 0px;
   left: 0px;
   width: 100%;
-  background-color: lightcyan;
+  background-color: wheat;
   box-shadow: 5px 10px 30px rgba(0, 0,0,0.3);
   z-index: 1;
 }
@@ -37,7 +38,8 @@ nav{
 
 .menu{
   list-style: none;
-  display: flex;
+  /* align-items: center; */
+  
 }
 
 .menu li a{
@@ -123,4 +125,18 @@ a{
   box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
   transition: all ease 0.2s;
 }
-
+#expant-btn{
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .menu{
+    font-size: medium;
+  }
+  .search-bar{
+    display: none;
+  }
+  #expant-btn{
+    display: block;
+  }
+  
+}
