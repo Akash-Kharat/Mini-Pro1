@@ -137,6 +137,9 @@ a{
   #expant-btn{
     display: block;
   }
-  
+ul {
+  text-align: center;
+  list-style: none;
+}  
   
 }
