@@ -75,29 +75,44 @@ a{
 .contact-main{
   border: 2px solid purple;
   padding: 5%;
+  height: 100vh;
   border-radius: 10%;
   margin: 10%;
 
   display: grid;
 }
+/* #icon{
+  padding: 0;
+  margin: 0;
+} */
 .fa {
-  padding: 20px;
+  padding: 0.6em;
   font-size: 30px;
-  width: 50px;
-  text-align: center;
+  /* width: 20px; */
+  border-radius: 50%;
+  /* text-align: center; */
   text-decoration: none;
-  margin: 5px 2px;
+  /* margin: 5px; */
 }
 
 .fa:hover {
     opacity: 0.7;
 }
-
-.fa-facebook {
-  background: #3B5998;
+.fa-whatsapp {
+  padding: 0;
+  font-size: 30px;
+  /* width: 20px; */
+  border-radius: 50%;
+  /* text-align: center; */
+  text-decoration: none;
+  background: #00ff00;
   color: white;
 }
 
+.fa-github {
+  background: #000000;
+  color: white;
+}
 .fa-twitter {
   background: #55ACEE;
   color: white;
@@ -133,23 +148,32 @@ a{
 }
 
 #expant-btn{
-  height: 20px;
-  width: 20px;
+  
   display: none;
+}
+
+.home-main{
+  border: 1px solid black;
+  height: 100vh;
+  display: flex;
+}
+.home-main p{
+  text-indent: 1.5em;
 }
 
 
 
-
-
-@media only screen and (max-width: 600px) {
-  .menu{
+@media only screen and (max-width: 800px) {
+  .menu a{
     font-size: medium;
+    margin: 5px;
+    padding: 2px;
   }
   .search-bar{
     display: none;
   }
   #expant-btn{
+    
     display: block;
   }
 ul {
